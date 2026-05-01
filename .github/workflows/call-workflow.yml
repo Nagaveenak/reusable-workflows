@@ -1,6 +1,6 @@
 name: calling Reusable Workflow
 on:
-  push
+  push:
 
 jobs:
   call-greet:

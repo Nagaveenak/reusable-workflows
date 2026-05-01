@@ -2,7 +2,7 @@ name: Reusable Workflow
 
 on:
   workflow_call:
-    input:
+    inputs:
       name:
         description: enter name
         required: true

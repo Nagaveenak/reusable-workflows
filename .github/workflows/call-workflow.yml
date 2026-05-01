@@ -5,3 +5,5 @@ on:
 jobs:
   call-greet:
     uses: ./.github/workflows/reusable.yml
+    with:
+      name: 'alex'

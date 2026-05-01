@@ -1,0 +1,10 @@
+name: Reusable Workflow
+on:
+  Workflow_call:
+
+jobs:
+  greeting:
+    runs-on: ubunti-latest
+    steps:
+      - name: greet
+        run: echo "welcome"
